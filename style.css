@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    padding-top: 20px;
+    padding-right: 100px;
+    padding-left: 100px;
+}
+
+.logo {
+    width: 80px;
+}
+
+.conteudo {
+    width: 100%; /* LARGURA */
+    display: flex; /* Flexbox para layout */
+    justify-content: space-between; /* Alinhamento horizontal */
+    align-items: center; /* Alinhamento vertical */
+}
+
+.textos {
+    width: 600px;
+}
+
+h2 {
+    color: #333; /* Cor do texto */
+    font-size: 60px; /* Tamanho do texto */
+    font-weight: bold; /* Grossura do texto*/
+}
+
+span {
+    color: #017143;
+    font-size: 70px;
+    font-weight: 900;
+}
+
+p {
+    font-size: 18px;
+}
+
+button {
+    background: #017143;/* background -> fundo do elemento */
+    color: white;/* cor do texto */
+    border-radius: 40px;/* arredondamento da borda */
+    border: none;/* borda do elemento */
+    cursor: pointer;/* cursor do mouse */
+    padding: 10px; /* espaçamento interno */
+    margin-top: 20px;/* Cria uma margem  */
+    transition: 0.5s;
+}
+
+button:hover{
+    background-color: #018950;
+}
+
+.imagem-copo {
+    width: 600px;
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 250px;
+}
+
+.circulo {
+    background: #017143;
+    height: 100%; /* Altura */
+    width: 100%; /* Largura */
+    position: absolute;
+    top: 0;
+    left: 0;
+    clip-path: circle(600px at right 800px);
+    z-index: -1;
+    transition: background 0.5s; 
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+    margin-left: 500px;
+}
+
+.botao-menu {
+    width: 80px;
+    cursor: pointer;
+    margin: 0 5px; /* Espaçamento entre os botões */
+}
+
+.botao-menu:hover {
+    transform: scale(1.5);
+    transition: 0.5s;
+}
+
+.logo {
+    width: 80px;
+}
+
+.imagem-principal {
+    width: 340px;
+    transition: opacity 0.5s;
+    opacity: 1;
+}
+
+.imagem-principal.fade-out {
+    opacity: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

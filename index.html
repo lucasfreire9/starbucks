@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Starbucks</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+
+</head>
+
+<body>
+    <div class="circulo"></div>
+
+    <img src="./assets/img/logo.png" alt="Starbucks Logo" class="logo">
+
+    <div class="conteudo">
+
+        <div class="textos">
+            <h2>Não é só café, é <span>Starbucks</span></h2>
+
+            <p>O Starbucks é uma rede de cafeterias que oferece uma experiência única, com cafés de alta qualidade e um
+                ambiente acolhedor.</p>
+
+            <button class="btn-saiba-mais">Saiba mais</button>
+        </div>
+
+        <div class="imagem-copo">
+            <img src="./assets/img/img1.png" alt="Imagem de Café" class="imagem-principal">
+        </div>
+    </div>
+
+    <div class="menu">
+        <img src="./assets/img/thumb1.png" alt="Imagem de Café" class="botao-menu" onclick="trocarACor('#017143'); trocarImagem('./assets/img/img1.png')">
+        <img src="./assets/img/thumb2.png" alt="Imagem de Café" class="botao-menu" onclick="trocarACor('#eb7495'); trocarImagem('./assets/img/img2.png')">
+        <img src="./assets/img/thumb3.png" alt="Imagem de Café" class="botao-menu" onclick="trocarACor('#d752b1'); trocarImagem('./assets/img/img3.png')">
+    </div>
+</body>
+<script src="scripts.js"></script>
+</html>
